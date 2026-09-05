@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <meta lastmodifieddate="2026-09-05">
+    <creator>Grok</creator>
+    <description>Exemple simple de graphe pour test WordPress</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <nodes>
+      <node id="0" label="Node A"/>
+      <node id="1" label="Node B"/>
+      <node id="2" label="Node C"/>
+      <node id="3" label="Node D"/>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1"/>
+      <edge id="1" source="1" target="2"/>
+      <edge id="2" source="2" target="3"/>
+      <edge id="3" source="3" target="0"/>
+      <edge id="4" source="0" target="2"/>
+    </edges>
+  </graph>
+</gexf>
